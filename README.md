@@ -2,7 +2,7 @@
 
 ## Copy `template-credentials.pkr.hcl.example`
 ```sh 
-cp template-credentials.pkr.hcl.example credentials.pkr.hcl
+cp template-credentials.pkrvars.hcl.example credentials.pkrvars.hcl
 ```
 Replace example values with real values. 
 
@@ -13,6 +13,6 @@ packer ubuntu-server-focal-docker.pkr.hcl
 ```
 ### Build image 
 ```sh 
-packer build -var-file=../template-credentials.pkr.hcl ubuntu-server-focal-docker.pkr.hcl
+packer build -var-file=../template-credentials.pkrvars.hcl ubuntu-server-focal-docker.pkr.hcl
 ```
 
