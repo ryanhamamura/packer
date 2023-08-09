@@ -43,7 +43,7 @@ source "proxmox" "ubuntu-server-focal-docker" {
 
   # VM General Settings 
   node = "proxmox" # name of the proxmox instance
-  vm_id = "902" # can comment this out and proxmox will use next available
+  vm_id = "903" # can comment this out and proxmox will use next available
   vm_name = "ubuntu-server-focal-docker"
   template_description = "Ubuntu Server Focal Image with Docker pre-installed"
 
